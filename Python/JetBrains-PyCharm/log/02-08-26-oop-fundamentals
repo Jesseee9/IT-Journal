@@ -1,45 +1,31 @@
-Python Learning Journal – Object-Oriented Programming (OOP) Fundamentals
+# Python OOP - Classes, Objects, and Object Representation
 
-Date
+## Date
+2026-08-02
 
-2 August 2026
+## Platform / Environment
+Python
 
-Topic
+## What I Learned
 
-Python Object-Oriented Programming (OOP)
+Today I learned more about Object-Oriented Programming (OOP) in Python, focusing on how classes create objects and how objects store and display data.
 
-What I Learned
+I learned the difference between:
 
-Today I focused on several core concepts of Python’s Object-Oriented Programming model.
+- Class variables: Values shared between all objects created from a class.
+- Instance variables: Values unique to each object, created using `self` inside `__init__`.
 
-Class vs Instance Variables
+I also learned how the `__init__` constructor method works. It runs automatically when a new object is created and is used to set initial values. A constructor can also call other methods inside the class using `self.method_name()`.
 
-* Class variables are defined directly inside the class and are shared by every object created from that class.
-* Instance variables are created inside the __init__ method using self and belong to each individual object.
+Finally, I learned how `__str__` and `__repr__` control how objects are displayed:
+- `__str__` provides a user-friendly description when using `print()`.
+- `__repr__` provides a more detailed developer-focused representation of an object.
 
-The __init__ Constructor
+## Key Takeaways
 
-* The __init__ method runs automatically whenever a new object is created.
-* It is used to initialise an object’s starting attributes.
-* It can also call other methods within the class using self.
-
-Calling Methods with self
-
-* When one method needs to call another method within the same class, it should use self.method_name().
-* Using self ensures the method is called on the current object instance.
-
-__str__ vs __repr__
-
-* __str__ provides a readable, user-friendly representation of an object, typically used with print().
-* __repr__ provides a more detailed representation intended for debugging and development.
-
-Key Takeaway
-
-Today’s lesson reinforced my mental model of object-oriented programming:
-
-* A class is the blueprint.
-* An object is an instance created from that blueprint.
-* self refers to the current object.
-* __init__ is responsible for setting up each object when it is created.
-
-Building a strong understanding of these fundamentals will make it easier to write and understand object-oriented Python code as I continue learning.
+- A class is a blueprint for creating objects.
+- Objects are individual instances created from a class.
+- `self` refers to the specific object currently being worked with.
+- `__init__` is used to initialise object data when it is created.
+- Use `self.method_name()` when calling another method inside the same class.
+- `__str__` is designed for readable output, while `__repr__` helps developers understand object state.
