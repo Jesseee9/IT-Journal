@@ -1,0 +1,45 @@
+Python Learning Journal – Object-Oriented Programming (OOP) Fundamentals
+
+Date
+
+2 August 2026
+
+Topic
+
+Python Object-Oriented Programming (OOP)
+
+What I Learned
+
+Today I focused on several core concepts of Python’s Object-Oriented Programming model.
+
+Class vs Instance Variables
+
+* Class variables are defined directly inside the class and are shared by every object created from that class.
+* Instance variables are created inside the __init__ method using self and belong to each individual object.
+
+The __init__ Constructor
+
+* The __init__ method runs automatically whenever a new object is created.
+* It is used to initialise an object’s starting attributes.
+* It can also call other methods within the class using self.
+
+Calling Methods with self
+
+* When one method needs to call another method within the same class, it should use self.method_name().
+* Using self ensures the method is called on the current object instance.
+
+__str__ vs __repr__
+
+* __str__ provides a readable, user-friendly representation of an object, typically used with print().
+* __repr__ provides a more detailed representation intended for debugging and development.
+
+Key Takeaway
+
+Today’s lesson reinforced my mental model of object-oriented programming:
+
+* A class is the blueprint.
+* An object is an instance created from that blueprint.
+* self refers to the current object.
+* __init__ is responsible for setting up each object when it is created.
+
+Building a strong understanding of these fundamentals will make it easier to write and understand object-oriented Python code as I continue learning.
