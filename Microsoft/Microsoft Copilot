@@ -1,1 +1,29 @@
 
+# Microsoft Copilot – Writing Effective Prompts
+
+## Date
+2026-08-10
+
+## Platform / Environment
+Microsoft Learn
+
+## What I Learned
+
+Today I completed a Microsoft Learn module on writing effective prompts for Microsoft 365 Copilot Chat.
+
+I learned the four key elements that can be used to structure an effective Copilot prompt:
+
+- **Context** – Provide relevant background information.
+- **Goal** – Clearly explain what you want Copilot to accomplish.
+- **Source** – Identify the information or material Copilot should use when relevant.
+- **Expectations** – Describe how the response should be presented, including format, tone, or level of detail.
+
+I also learned prompting best practices, common mistakes to avoid, and how the Copilot Prompt Gallery can be used to discover, save, edit, and share useful prompts.
+
+## Key Takeaways
+
+- Clear prompts generally produce more useful results.
+- Providing context and a specific goal helps Copilot understand what is required.
+- Sources and expectations can make responses more relevant and consistent.
+- Prompting is an iterative process, and unclear or incomplete instructions can lead to poorer results.
+- The Copilot Prompt Gallery can provide reusable starting points for common tasks.
