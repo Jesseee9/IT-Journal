@@ -1,0 +1,52 @@
+Create Agents for Microsoft 365 Copilot
+
+Date: 2026-08-18
+Platform / Environment: Microsoft Learn — Microsoft 365 / Copilot
+
+What I Did
+
+Completed a Microsoft Learn module covering AI-powered agents in Microsoft 365 Copilot, with a focus on agents that everyday business users can create without programming experience.
+
+The module explored how these agents can be used within Microsoft SharePoint and Microsoft 365 Copilot Chat to assist with tasks, provide information, automate routine processes and improve productivity.
+
+What I Learned
+
+A key distinction covered in the module was between:
+
+* Prebuilt agents — created by Microsoft or approved vendors and designed to provide functionality with minimal setup.
+* User-created agents — agents that business users can create and manage without traditional programming skills.
+
+These user-created agents can allow people across an organisation to apply AI to specific workflows without having to depend entirely on IT or software development teams.
+
+Microsoft 365 Integration
+
+I learned how agents can work alongside Microsoft 365 services such as:
+
+* SharePoint
+* Microsoft 365 Copilot Chat
+* OneDrive
+* Microsoft Teams
+
+This can allow agents to work with organisational information and assist users within the tools they already use.
+
+Security and Compliance
+
+The module also covered the importance of security and compliance when introducing AI agents into an organisation.
+
+Agents may interact with organisational information, so considerations such as protecting sensitive data, controlling access and ensuring appropriate compliance are important when deploying them.
+
+Key Takeaways
+
+The main takeaway for me was that AI agents are becoming more accessible to non-technical users.
+
+The important part isn’t simply being able to create an agent. In a business environment, organisations also need to consider what information the agent can access, who can use it, and how that information is protected.
+
+Practical Relevance
+
+For IT support and Microsoft 365 administration, understanding agents is becoming increasingly relevant as organisations introduce AI into everyday workflows.
+
+It also highlights an important shift in IT: supporting users may increasingly involve helping them use and govern AI tools, rather than only managing traditional applications and infrastructure.
+
+Next Step
+
+Continue building my understanding of Microsoft 365 Copilot and agents, with practical experience creating and configuring agents when an appropriate hands-on exercise becomes available.
