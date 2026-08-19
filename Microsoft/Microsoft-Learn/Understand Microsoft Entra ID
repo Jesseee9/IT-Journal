@@ -1,0 +1,39 @@
+Microsoft Entra ID Fundamentals
+
+Date: 2026-08-19
+Platform / Environment: Microsoft Learn — Microsoft Entra ID
+
+What I Did
+
+Completed a Microsoft Learn module introducing Microsoft Entra ID, Microsoft’s cloud-based identity and access management service.
+
+The module covered the role of Entra ID in managing identities, controlling access and securing applications and data across cloud and on-premises environments.
+
+What I Learned
+
+I learned the fundamentals of Microsoft Entra ID and how it differs from Active Directory Domain Services (AD DS).
+
+The module also introduced:
+
+* Entra ID as a directory service for cloud applications.
+* Microsoft Entra ID P1 and P2.
+* Microsoft Entra Domain Services.
+* How identity and access management applies across cloud and on-premises environments.
+
+Key Takeaway
+
+One of the most important distinctions for me was understanding that Entra ID and traditional AD DS serve related but different roles.
+
+AD DS is traditionally used to manage identities, computers and resources within a Windows domain environment, while Entra ID is designed around cloud identity and access management.
+
+Understanding this distinction is important as organisations increasingly use both on-premises infrastructure and Microsoft cloud services.
+
+Practical Relevance
+
+Entra ID is particularly relevant to Microsoft 365 administration and IT Support because identity and access are involved in many everyday tasks, such as user accounts, authentication and access to cloud applications.
+
+This gives me a foundation for understanding how organisations manage identities in Microsoft cloud environments.
+
+Next Step
+
+Continue building practical experience with Entra ID and connect the concepts from this module with my existing understanding of Windows Server and Active Directory.
