@@ -1,0 +1,42 @@
+Secure Azure Virtual Networks
+
+Date: 2026-08-20
+Platform / Environment: Microsoft Learn — Azure
+
+What I Did
+
+Completed a Microsoft Learn module covering security measures for Azure virtual networks.
+
+The module explored how Azure networking features can be used to protect network resources, control traffic, secure connectivity and monitor potential security issues.
+
+What I Learned
+
+The module introduced several Azure networking and security components, including:
+
+* Network Security Groups (NSGs) for controlling network traffic.
+* Application Security Groups (ASGs) for grouping workloads when applying network security rules.
+* User-defined routes (UDRs) for controlling network traffic routing.
+* Virtual Network peering and VPN gateways for connecting networks securely.
+* Virtual WAN and secured virtual hubs for managing network connectivity.
+* Point-to-site and site-to-site VPNs for remote and branch connectivity.
+* Encryption over ExpressRoute for protecting data in transit.
+* Firewall configuration for Azure PaaS resources.
+* Azure Network Watcher and NSG flow logging for monitoring and analysing network traffic.
+
+Key Takeaways
+
+A major takeaway was that securing an Azure virtual network involves multiple layers rather than relying on a single security feature.
+
+Traffic needs to be controlled, network connectivity needs to be secured, routes need to be managed appropriately, and network activity needs to be monitored.
+
+I also gained a broader understanding of how Azure provides different tools for securing both network infrastructure and the services running within it.
+
+Practical Relevance
+
+Understanding Azure network security is useful for cloud administration and IT Support because organisations increasingly operate across cloud and on-premises environments.
+
+Knowing what tools such as NSGs, VPN gateways, Network Watcher and Azure Firewall are designed to do provides a foundation for troubleshooting connectivity and understanding how cloud network security is structured.
+
+Next Step
+
+Reinforce these concepts through hands-on Azure networking labs, particularly by creating a virtual network and experimenting with NSGs, traffic rules and network monitoring.
