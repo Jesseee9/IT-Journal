@@ -1,0 +1,44 @@
+Build Agents in SharePoint and Microsoft 365 Copilot Chat
+
+Date: 2026-08-21
+Platform / Environment: Microsoft Learn — Microsoft 365 / SharePoint / Copilot Chat
+
+What I Did
+
+Completed a Microsoft Learn module covering how to build and manage agents created by everyday business users in SharePoint and Microsoft 365 Copilot Chat.
+
+The module focused on the foundations of creating agents, configuring their behaviour and knowledge, and testing and managing them.
+
+What I Learned
+
+I learned about the main components that make up an agent, including:
+
+* Instructions — define how the agent should behave and respond.
+* Knowledge sources — provide the information the agent can use to answer questions.
+* Starter prompts — give users suggested ways to begin interacting with the agent.
+
+The module also covered how agents can be created and managed within SharePoint and Copilot Chat.
+
+Testing and Management
+
+An important part of building an agent is testing its responses rather than assuming that the initial configuration will produce the desired results.
+
+The module covered testing and editing agents to improve their responses and make them more consistent with their intended purpose.
+
+Key Takeaways
+
+The main takeaway for me was that creating an AI agent isn’t simply about asking AI to perform a task.
+
+The agent needs clear instructions, appropriate knowledge sources and useful prompts. It also needs to be tested and refined to make sure it behaves as expected.
+
+This is particularly important when an agent is being used with organisational information or as part of a business workflow.
+
+Practical Relevance
+
+For Microsoft 365 administration and IT Support, understanding how users can create their own agents is becoming increasingly relevant.
+
+It means IT teams may not always be the people building every automation solution. Instead, they may also need to help users understand how to configure, use and govern these tools appropriately.
+
+Next Step
+
+Build a simple hands-on agent in SharePoint or Microsoft 365 Copilot Chat to reinforce the concepts covered in this module.
