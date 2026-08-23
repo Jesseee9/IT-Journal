@@ -1,0 +1,48 @@
+Introduction to Retrieval-Augmented Generation (RAG)
+
+Date: 2026-08-23
+Platform / Environment: Microsoft Learn — Microsoft Foundry
+Module: Introduction to retrieval-augmented generation concepts
+Duration: 34 minutes
+Level: Beginner
+
+What I Did
+
+Completed the Microsoft Learn module Introduction to retrieval-augmented generation concepts and passed the module assessment.
+
+The module introduced how Retrieval-Augmented Generation (RAG) can help generative AI applications produce responses grounded in relevant information.
+
+What I Learned
+
+I learned the purpose of RAG and the general process used to provide an AI model with relevant information before it generates a response.
+
+The process can be understood as:
+
+1. Prepare the data so it can be searched and retrieved effectively.
+2. Retrieve relevant information based on the user’s request.
+3. Provide the retrieved information to the generative AI model.
+4. Generate a grounded response using the retrieved context.
+5. Evaluate and improve the solution to make retrieval and responses more effective.
+
+Key Takeaways
+
+The main concept I took from this module is that RAG helps connect generative AI with relevant external information.
+
+Instead of relying only on what the model already knows, a RAG system can retrieve relevant information and use that information as context when generating its response.
+
+I also learned that building a RAG solution isn’t only about retrieval. The preparation of the data and the evaluation of the overall system are also important.
+
+Practical Relevance
+
+RAG is particularly relevant to business AI applications where responses need to be grounded in specific organisational or domain information.
+
+For example, a company could use a RAG-based application to help users find and answer questions about internal documentation, provided the system is designed with appropriate data access and security controls.
+
+Outcome
+
+* Module completed.
+* Module assessment passed.
+
+Next Step
+
+Continue learning about practical generative AI and Microsoft Foundry concepts, with hands-on practice where possible to reinforce the RAG workflow.
