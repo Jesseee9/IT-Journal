@@ -1,0 +1,41 @@
+Zero Trust Security Model
+
+Date: 2026-08-31
+Platform / Environment: Microsoft Learn — Microsoft 365 Security
+
+What I Did
+
+Completed an introductory unit on the Zero Trust security model and how it addresses the security challenges of modern organisations.
+
+The introduction focused on the changing security environment, including mobile workforces, cloud services and the need to protect people, devices, applications and data regardless of where they are located.
+
+What I Learned
+
+Zero Trust is a security model designed around the idea that organisations should not automatically trust users, devices or resources based simply on their location or network.
+
+The Microsoft Zero Trust approach considers security across several connected areas, including:
+
+* Identity
+* Devices
+* Applications
+* Data
+* Infrastructure
+* Networks
+
+It also brings security, compliance, identity and device management together rather than treating them as completely separate areas.
+
+Key Takeaway
+
+The main idea I took from the introduction is that modern security cannot rely on a trusted internal network and an untrusted external network.
+
+With users, devices, applications and data increasingly spread across different locations and cloud environments, security needs to follow the identity, device and data wherever they are.
+
+Practical Relevance
+
+Zero Trust is particularly relevant to modern IT Support and Microsoft 365 environments because users may access organisational resources from different devices, locations and networks.
+
+Understanding the model provides a foundation for learning about technologies such as identity-based access controls, device management, authentication and security policies.
+
+Next Step
+
+Continue learning about the Zero Trust model and how its principles can be applied to identity, devices, applications, data and infrastructure.
