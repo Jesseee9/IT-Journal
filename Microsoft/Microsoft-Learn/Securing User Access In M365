@@ -1,0 +1,43 @@
+Manage Secure User Access in Microsoft 365
+
+Date: September 3, 2026
+Platform / Environment: Microsoft Learn — Microsoft 365 / Microsoft Entra ID
+
+What I Did
+
+Completed the Microsoft Learn module Manage secure user access in Microsoft 365.
+
+The module covered several tools and controls used to secure user authentication and access, including:
+
+* Microsoft Entra Conditional Access
+* Multi-factor authentication (MFA)
+* Passwordless authentication
+* Self-service password management
+* Microsoft Entra Smart Lockout
+* Security Defaults
+* Pass-through authentication
+* Sign-in logs for investigating authentication issues
+
+What I Learned
+
+I learned how different identity and access controls work together to protect Microsoft 365 users.
+
+A key area was Conditional Access, which can be used to apply access requirements based on factors such as the user, device, application, location, or risk.
+
+I also learned how MFA, passwordless authentication and Security Defaults can strengthen authentication, while tools such as Smart Lockout help protect against repeated authentication attempts.
+
+The module also introduced using sign-in logs to investigate authentication problems and understand why a user’s sign-in may have succeeded or failed.
+
+Key Takeaway
+
+Secure access is not just about having a strong password.
+
+Microsoft 365 provides multiple layers of identity protection, and understanding how they work together is important for IT support and administration.
+
+Practical Relevance
+
+These are controls I could encounter when supporting Microsoft 365 users, particularly when troubleshooting sign-in problems, MFA issues, account lockouts or access policies.
+
+Next Step
+
+Practise these concepts in my Microsoft 365 / Entra environment, particularly MFA, Conditional Access and reviewing sign-in logs, to move from understanding the concepts to applying them.
