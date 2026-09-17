@@ -1,0 +1,40 @@
+Describe Microsoft Dataverse
+
+Date: September 17, 2026
+Platform / Environment: Microsoft Learn — Microsoft Power Platform
+
+What I Did
+
+Completed the Microsoft Learn module Describe Microsoft Dataverse.
+
+The module covered:
+
+* Differences between traditional databases and Microsoft Dataverse
+* Dataverse tables, columns and relationships
+* Business logic options in Dataverse
+* Table forms and views
+* Creating and editing tables, columns and relationships through conversations
+* Power Fx
+* How Dataverse supports Power Platform and AI/Copilot experiences
+
+What I Learned
+
+I learned that Microsoft Dataverse is more than simply a place to store data. It provides a structured data foundation for Power Platform applications and can support solutions that integrate data, business logic, security and AI capabilities.
+
+I also learned how Dataverse organises information using tables, columns and relationships, and how forms and views provide different ways of working with that data.
+
+The module also introduced using natural-language conversations to create and modify Dataverse components, which connects Dataverse with Microsoft’s increasing use of AI-assisted development.
+
+Key Takeaway
+
+Dataverse provides a managed, structured data layer that Power Platform solutions can build on, rather than requiring someone to build and maintain a traditional database from scratch.
+
+Understanding the relationship between data → business logic → applications → AI is an important part of understanding the wider Power Platform ecosystem.
+
+Practical Relevance
+
+For IT and cloud support, this gives me a better foundation for understanding Microsoft environments where organisations use Power Apps, Power Automate, Copilot and other Power Platform services.
+
+Next Step
+
+Continue learning how Dataverse connects with Power Apps, Power Automate and Copilot, then get some practical experience working with tables and relationships.
