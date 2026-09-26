@@ -1,0 +1,34 @@
+Manage Access to Azure Resources with Azure RBAC
+
+Date: September 26, 2026
+Platform / Environment: Microsoft Learn — Microsoft Azure
+
+What I Did
+
+Completed the Microsoft Learn module Manage Access to Azure Resources with Azure RBAC.
+
+The module focused on using Azure Role-Based Access Control (RBAC) to manage access to Azure resources.
+
+What I Learned
+
+Azure RBAC is an authorization system that controls:
+
+* Who has access to an Azure resource
+* What actions they can perform
+* Where they have access
+
+I learned that RBAC is important for securing Azure resources while still giving employees and partners the permissions they need to perform their roles.
+
+The module also covered checking access, granting access to resources, and reviewing activity logs related to RBAC changes.
+
+Key Takeaway
+
+Azure security isn’t only about protecting resources from unauthorized users. It’s also about giving the right level of access to the right people and resources.
+
+Practical Relevance
+
+RBAC is directly relevant to Azure administration and IT support because permissions need to be managed carefully to avoid both unauthorized access and unnecessarily broad permissions.
+
+Next Step
+
+Practise creating and reviewing role assignments in an Azure lab so I can connect the RBAC concepts to actual Azure administration tasks.
