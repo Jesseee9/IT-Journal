@@ -1,0 +1,38 @@
+Introduction to Microsoft Defender XDR Threat Protection
+
+Date: October 3, 2026
+Platform / Environment: Microsoft Learn — Microsoft Defender XDR
+
+What I Did
+
+Completed the Microsoft Learn module Introduction to Microsoft Defender XDR threat protection.
+
+The module introduced Microsoft’s integrated Extended Detection and Response (XDR) approach and how Defender XDR can be used within a Security Operations Center (SOC).
+
+What I Learned
+
+I learned about:
+
+* Extended Detection and Response (XDR) use cases
+* The role of Microsoft Defender XDR within a SOC
+* Microsoft Security Graph
+* Investigating security incidents in Defender XDR
+* How security signals can be brought together to support threat investigation and response
+
+Key Takeaway
+
+One of the main concepts I took from the module is that modern security monitoring isn’t just about looking at individual alerts.
+
+XDR can help connect security signals across different areas of an environment, giving security teams more context when investigating an incident.
+
+This can make it easier to understand whether separate alerts are related to the same attack rather than treating every alert as an isolated event.
+
+Practical Relevance
+
+This builds on my previous learning around Microsoft Defender for Endpoint.
+
+Understanding the wider Defender XDR ecosystem gives me a better foundation for understanding how endpoint detection fits into a broader security operations environment.
+
+Next Step
+
+Continue building my Microsoft security knowledge and get hands-on experience with Defender tools and security investigation workflows where possible.
