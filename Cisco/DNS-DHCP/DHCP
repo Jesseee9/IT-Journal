@@ -1,0 +1,36 @@
+DHCP Fundamentals & Windows Network Troubleshooting
+
+Date: October 6, 2026
+Platform / Environment: Windows — IT Support Learning
+
+What I Learned
+
+DHCP (Dynamic Host Configuration Protocol) automatically provides network configuration to clients, including an IP address and other network settings.
+
+The basic DHCP process is commonly remembered as:
+
+Discover → Offer → Request → Acknowledge (DORA)
+
+I also learned how DHCP problems can affect a Windows machine’s ability to communicate on a network.
+
+Key Takeaways
+
+* DHCP provides network configuration; it doesn’t simply “provide internet.”
+* DORA describes the basic DHCP exchange between a client and DHCP server.
+* ipconfig /all is an important Windows command for investigating network configuration.
+* A 169.254.x.x IPv4 address is an indication that the machine likely didn’t receive a usable address from DHCP.
+* Evidence helps narrow down a problem but doesn’t automatically prove the root cause.
+
+Practical Relevance
+
+When troubleshooting a Windows machine with network problems, checking ipconfig /all gives me useful evidence about the machine’s current configuration.
+
+Instead of immediately assuming “the internet is down”, I can start by asking:
+
+Who gave this machine its IP configuration, and is that configuration what I expected?
+
+This provides a more structured starting point for troubleshooting.
+
+Next Step
+
+Use ipconfig /all in a realistic troubleshooting scenario and practise distinguishing a DHCP problem from a DNS problem.
