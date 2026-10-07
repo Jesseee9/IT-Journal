@@ -1,0 +1,37 @@
+DNS Troubleshooting with nslookup
+
+Date: October 7, 2026
+Platform / Environment: Windows — IT Support / Networking
+
+What I Learned
+
+DNS translates names into IP addresses so devices can locate network resources.
+
+I learned how nslookup can be used to directly test DNS resolution and help investigate problems that may initially appear to be general internet or network issues.
+
+I also learned that:
+
+* nslookup can test whether a DNS server can resolve a name.
+* Internal Active Directory environments rely heavily on internal DNS.
+* ipconfig /flushdns clears the local DNS cache; it does not repair a DNS server.
+* Different tests provide different pieces of evidence, so troubleshooting shouldn’t rely on one command alone.
+
+Key Takeaway
+
+A complaint such as:
+
+“I can’t access this website/server.”
+
+isn’t specific enough to immediately identify the problem.
+
+A better troubleshooting approach is to ask:
+
+Does the machine have valid network configuration? Which DNS server is it using? Can that DNS server resolve the name?
+
+From there, I can use the results to narrow down whether the problem is related to network configuration, DNS resolution, or something further along the connection.
+
+Practical Relevance
+
+DNS troubleshooting is particularly important for IT Support because DNS problems can easily look like broader connectivity problems.
+
+This also connects directly to my previous networking learning around DHCP and ipconfig /all.
