@@ -1,0 +1,23 @@
+Kerberos Authentication in Active Directory
+
+Date: 10 October 2026
+Platform / Environment: Windows — Active Directory and IT Support fundamentals
+
+What I Learned
+
+* Kerberos is a key authentication protocol used by Active Directory environments.
+* A Ticket-Granting Ticket (TGT) allows a client to request service tickets without repeating the entire initial authentication process for each service.
+* A service ticket is used when authenticating to a particular service.
+* Authentication verifies identity, while authorisation determines what that identity is allowed to access.
+* Incorrect time synchronisation can cause Kerberos authentication failures.
+
+Key Takeaways
+
+* Successful authentication does not guarantee permission to access a resource.
+* klist can display and help investigate cached Kerberos tickets.
+* w32tm can help investigate Windows Time synchronisation.
+* When troubleshooting access problems, distinguish authentication failures from permission-related issues.
+
+Practical Relevance
+
+These concepts help explain how domain-joined Windows computers authenticate users and access network services. They also provide a foundation for troubleshooting access problems before moving on to NTFS and shared-folder permissions.
