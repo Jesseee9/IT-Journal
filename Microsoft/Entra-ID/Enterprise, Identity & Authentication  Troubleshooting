@@ -1,0 +1,34 @@
+Enterprise Identity and Authentication Troubleshooting
+
+Date: 17 October 2026
+Platform / Environment: Enterprise Identity and Access Management — Microsoft and web authentication fundamentals
+
+What I Learned
+
+Enterprise identity involves several responsibilities, including verifying identity, issuing and validating tokens, evaluating access policies, and enforcing permissions on resources.
+
+Key concepts covered:
+
+* Authentication vs authorisation: verifying who a user is versus deciding what they can access.
+* Active Directory and Microsoft Entra ID: distinct identity systems that can work together in hybrid environments.
+* SAML: commonly used to exchange authentication and identity information between systems.
+* OAuth 2.0: an authorisation framework for granting access.
+* OpenID Connect (OIDC): adds an identity and authentication layer on top of OAuth 2.0.
+* ID tokens vs access tokens: ID tokens convey information about an authenticated user to a client; access tokens are used to access protected resources.
+
+Key Takeaways
+
+* A successful sign-in does not guarantee access to every resource.
+* Identity, token handling, access policies, and resource permissions are separate parts of the process.
+* A fault in one layer does not necessarily mean the other layers are broken.
+* Troubleshooting should identify the failing layer before changing passwords, permissions, or configuration.
+
+Practical Relevance
+
+When investigating an enterprise sign-in issue, start with three questions:
+
+1. Did the user authenticate successfully?
+2. Was the appropriate token issued and accepted?
+3. Does the user have permission to access the requested resource?
+
+This approach helps narrow down the problem before making changes that may not address the actual cause.
