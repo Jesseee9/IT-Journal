@@ -1,0 +1,28 @@
+Configure Azure Storage Accounts
+
+Date: 19 October 2026
+Platform / Environment: Microsoft Learn — Azure
+
+What I Learned
+
+Studied how to configure Azure Storage accounts and choose appropriate storage options based on requirements.
+
+Topics included:
+
+* Azure Storage services: Understanding the different storage services available for different types of data and workloads.
+* Storage account types: Choosing an appropriate account configuration for the intended workload.
+* Replication strategies: Understanding how data replication supports availability and durability, with different options offering different levels of redundancy.
+* Storage access: Learning how clients and applications access stored data.
+* Storage endpoints: Understanding the endpoints used to reach Azure Storage services and the importance of securing access.
+
+Key Takeaways
+
+* Storage configuration should reflect the workload’s requirements rather than relying on a one-size-fits-all approach.
+* Replication choices affect data redundancy, availability, and cost.
+* Storage endpoints provide access paths to services, but access must also be appropriately secured.
+
+Practical Relevance
+
+When designing or supporting an Azure environment, storage decisions affect how applications access data, how resilient that data is to failures, and how securely it can be reached.
+
+This module strengthened my understanding of the decisions involved in configuring Azure storage, rather than treating cloud storage as simply somewhere to save files.
