@@ -1,0 +1,35 @@
+AWS IAM Authorisation and Encrypted S3 Access
+
+Date: 20 October 2026
+Platform / Environment: AWS — IAM, Amazon S3, AWS KMS and CloudTrail
+
+What I Learned
+
+AWS authorisation depends on the permissions and restrictions applicable to a specific request. Finding an Allow statement in one policy does not guarantee access.
+
+Key concepts:
+
+* Explicit deny: An applicable explicit Deny overrides an Allow.
+* Implicit deny: Access is denied by default when no applicable permission grants the requested action.
+* Amazon S3 permissions: Control whether a principal can perform actions on an S3 bucket or object.
+* AWS KMS permissions: When an object uses SSE-KMS encryption, retrieving its contents can also require permission to decrypt using the relevant KMS key.
+* CloudTrail: Provides audit events that can help investigate AWS API requests and access failures.
+
+Key Takeaways
+
+* Authorisation depends on the principal, requested action, resource, applicable policies and other relevant controls.
+* S3 permissions and KMS permissions serve different purposes.
+* A successful S3 permission check does not guarantee that decryption will succeed.
+* The exact error message and audit evidence help identify which permission check failed.
+
+Practical Relevance
+
+When an AWS role cannot retrieve an encrypted S3 object, investigate systematically:
+
+1. Confirm which role or principal is making the request.
+2. Check the required S3 action and the specific object resource.
+3. Review applicable policies, explicit denies and relevant restrictions.
+4. If SSE-KMS is used, check the required kms:Decrypt permission and the KMS key policy.
+5. Review the error details and relevant CloudTrail events for further evidence.
+
+This approach helps isolate the failing permission check instead of changing policies indiscriminately.
